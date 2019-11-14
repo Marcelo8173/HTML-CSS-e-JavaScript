@@ -1,0 +1,75 @@
+@keyframes piscar{
+    15%{
+        text-shadow: -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+         1px 1px 0 red,
+       -0px 0px 50px rgb(255, 0, 0);
+    }
+    20%{
+        text-shadow: -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+         1px 1px 0 red,
+       -0px 0px 50px rgba(255, 0, 0, 0.685);
+    }
+    30%{
+        text-shadow: -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+         1px 1px 0 red,
+       -0px 0px 50px rgba(255, 0, 0, 0.534)
+    }
+    40%{
+        text-shadow: -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+         1px 1px 0 red,
+       -0px 0px 50px rgba(255, 0, 0, 0.459)
+    }
+    50%{
+        text-shadow: -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+         1px 1px 0 red,
+       -0px 0px 50px rgba(255, 0, 0, 0.336)
+    }
+    
+    100%{
+        text-shadow: -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+         1px 1px 0 red,
+       -0px 0px 50px rgb(255, 0, 0)
+    }
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./imagens/art-black-background-blur-1040499.jpg);
+    background-image:no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans';
+}
+.container{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+h1{
+    color: rgba(255, 0, 0, 0.068);
+    font-size: 65px;
+    background-color:none;
+    text-decoration: overline;
+    letter-spacing: 2px;
+    text-shadow:
+         -1px -1px 0 red,  
+          1px -1px 0 red,
+          -1px 1px 0 red,
+           1px 1px 0 red,
+         -0px 0px 50px rgb(255, 0, 0);
+    animation: piscar 2s;
+    animation-iteration-count: infinite;
+}

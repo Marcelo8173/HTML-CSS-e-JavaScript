@@ -1,0 +1,174 @@
+@keyframes sumir{
+    0% {
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.7;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes piscar{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: yellowgreen;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+#botao{
+    position: absolute;
+    left: 47%;
+    top: 48%;
+    border-radius: 200px;
+    background-color: yellowgreen;
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+}
+#esconder{
+    visibility: hidden;
+}
+#saudacao{
+    position: absolute;
+    left: 25%;
+    top: 300px;
+    border-radius: 200px;
+    background-color: yellowgreen;
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+}
+.cabeca{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    width: 250px;
+    height: 90px;
+    background-color: yellowgreen;
+}
+.olhos{
+    position: absolute;
+    left: 45.5%;
+    top: 29.5%;
+    border-radius: 15px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+}
+.olhos-1{
+    position: absolute;
+    left: 52.5%;
+    top: 29.5%;
+    border-radius: 15px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+}
+.antena{
+    position: absolute;
+    top: 17%;
+    left: 53.5%;
+    width: 10px;
+    transform: rotate(20deg);
+    border-radius: 5px;
+    height: 70px;
+    background-color:yellowgreen;
+}
+.antena-1{
+    position: absolute;
+    top: 17%;
+    left: 45.5%;
+    width: 10px;
+    transform: rotate(-20deg);
+    border-radius: 5px;
+    height: 70px;
+    background-color: yellowgreen;
+}
+
+.corpo{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    width: 250px;
+    height: 200px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px; 
+    background-color: yellowgreen;
+}
+.braco{
+    position: absolute;
+    top: 40%;
+    left: 37.5%;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    width: 35px;
+    height: 170px;
+}
+.braco-1{
+    position: absolute;
+    top: 40%;
+    left: 59.9%;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    width: 35px;
+    height: 170px;
+    transition: all 0.5s;
+}
+/*
+.braco-1:hover{
+    left: 62%;
+    transform: rotate(-150deg);
+    transform-origin: top left;
+}*/
+.perna{
+    position: absolute;
+    top: 66%;
+    left: 45%;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    width: 42px;
+    height: 90px;
+}
+.perna-1{
+    position: absolute;
+    top: 66%;
+    left: 52%;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    width: 42px;
+    height: 90px;
+}

@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    background-image: url(./imagens/card-coffee-cup-1449082.jpg);
+    background-size: cover;
+}
+td{
+    padding: 21px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+    transition: 0.5s;
+}
+td:hover{
+    background-color:rgba(63, 62, 62, 0.788);
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.801);
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    background-color: rgba(71, 68, 68, 0.685);
+    border-radius: 12px;
+    box-shadow:6px 6px 6px rgba(0, 0, 0, 0.534);
+}
+.mostrador{
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%);
+    width: 375px;
+    height: 58px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 5px;
+    box-shadow:5px 5px 5px rgba(207, 200, 200, 0.411);
+}
+.tabela{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}

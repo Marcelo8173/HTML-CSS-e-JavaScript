@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de preço</title>
+</head>
+<body>
+    <img id="fundo" src="./imagens/abandoned-brand-classic-284288.jpg" alt="">
+    <section id="conteudo">
+        <h1 id="titulo">Calculadora de preço</h1>
+        <section class="calculadora">
+            <br><br>
+            <input type="number" name="" id="gasolina" placeholder="Colocoque o preço da gasolina" step="0.01">
+            <br><br>
+            <input type="number" name="" id="alcool" placeholder="Colocoque o preço do álcool" step="0.01">
+            <br><br>
+            <input onclick="calcular()" type="button" id="calcular" value="Calcular">
+            <div id="res"></div>
+        </section>
+    </section>
+    <script src="calculadora.js"></script>
+</body>
+</html>
