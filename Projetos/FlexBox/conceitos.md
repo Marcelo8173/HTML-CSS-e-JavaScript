@@ -19,3 +19,6 @@
 - flex-shrink: 0 - diz para os meus elementos não alterarem o redimensionamento criando a barra de rolagem
 - flex é a união dos dois
 - flex-wrap quebra a linha em mais de uma
+#### order
+- order - define a ordem que os elementos vão aparecer em tela
+
