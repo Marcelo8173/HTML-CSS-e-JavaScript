@@ -14,3 +14,8 @@
 - space-between alinha todos os itens na tela e separa eles de forma igual
 - space-around coloca espaço
 - alinha no mesmo eixo do flex-direction
+#### redimensionamento
+- flex-grow: 1 - diz para os meus elementos ocuparam todo o espaço possivel dentro do container deles
+- flex-shrink: 0 - diz para os meus elementos não alterarem o redimensionamento criando a barra de rolagem
+- flex é a união dos dois
+- flex-wrap quebra a linha em mais de uma
